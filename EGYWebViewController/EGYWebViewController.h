@@ -37,6 +37,7 @@
 
 @property (nonatomic, strong) UIColor *barsTintColor    __attribute__((deprecated("not finished yet barsTintColor")));
 @property (nonatomic, strong) UIColor *barItemsTintColor __attribute__((deprecated("not finished yet barItemsTintColor")));
+@property (nonatomic, strong) UIWebView *mainWebView;
 
 #ifdef __IPHONE_8_0
     // Option to use webkit over UIWebview. Default YES

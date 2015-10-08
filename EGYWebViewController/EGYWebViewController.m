@@ -19,7 +19,6 @@
 @property (nonatomic, strong, readonly) UIBarButtonItem *stopBarButtonItem;
 @property (nonatomic, strong, readonly) UIBarButtonItem *actionBarButtonItem;
 
-@property (nonatomic, strong) UIWebView *mainWebView;
 
 #ifdef __IPHONE_8_0
 @property (nonatomic, strong) WKWebView *mainWebKitView;

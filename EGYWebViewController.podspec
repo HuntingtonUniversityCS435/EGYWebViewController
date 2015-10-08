@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.preserve_paths = "TUSafariActivity/*.lproj", "MLCruxActivity/*.lproj", "ARChromeActivity/*.lproj"
 
-  s.frameworks = 'UIKit', 'Foundation', 'QuartzCore'
+  s.frameworks = 'UIKit', 'Foundation', 'QuartzCore', 'WebKit'
   s.requires_arc = true
 
 end
